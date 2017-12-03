@@ -25,6 +25,32 @@
       - /dev/block/platform/msm_sdcc.1/by-name/recovery
       - /dev/block/mmcblk0p15
 
+- name: Samsung Galaxy J7 [Exynos7870]
+  id: exynos7870
+  codenames:
+    - j7velte
+    - on7xelte
+    - j7xelte
+    - j7y17lte
+    - gtaxllte
+  architecture: armeabi-v7a
+  block_devs:
+    base_dirs:
+      - /dev/block/platform/13540000.dwmmc0/by-name
+    system:
+      - /dev/block/platform/13540000.dwmmc0/by-name/SYSTEM
+    cache:
+      - /dev/block/platform/13540000.dwmmc0/by-name/CACHE
+    data:
+      - /dev/block/platform/13540000.dwmmc0/by-name/USERDATA
+    boot:
+      - /dev/block/platform/13540000.dwmmc0/by-name/BOOT
+    recovery:
+      - /dev/block/platform/13540000.dwmmc0/by-name/RECOVERY
+   boot_ui:
+	supported: true
+    flags: 
+	- TW_HAS_DOWNLOAD_MODE
 
 - name: Samsung Galaxy Star
   id: mint
