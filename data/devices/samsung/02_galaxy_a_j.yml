@@ -6,6 +6,7 @@
     - a5ltexx
     - a5ulte
     - a5ultexx
+    - a3y17lte
   architecture: armeabi-v7a
 
   block_devs:
